@@ -1,0 +1,94 @@
+
+html{
+background:#daede2; padding:5%;}
+body{
+	background: #6bb0ce;}
+
+a{
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+	color: #4f4d4d;
+	text-decoration:none;
+}
+a:hover{
+	border-color: red;
+}
+div.participation p a,div.explanation p,div.participation,h1,h2,div.explanation h3{
+	color: white;
+}
+div.participation p a:hover{
+	border-color: white;
+}
+h1,div.summary,div.requirements p.prec{ 
+	text-transform: uppercase;
+}
+div.summary p{color:white; }
+h1{
+	background: #d62c2f;
+	margin-bottom:16px;
+	padding: 10px 16px;
+	display:inline-block;
+	margin: 40px;
+	font-weight:normal;
+}
+h2{
+	font-weight:normal;
+	font-weight:800;
+	font-size:100px; 
+}
+h3{ 
+	font-size:35px; padding:8px 0 4px 0;
+}
+div{ 
+	position:relative; 
+}
+div.page-wrapper{ 
+	z-index:2; 
+}
+section.intro{ 
+	padding:60px; width:750px;  
+}
+section.intro div.summary{ 
+padding:80px 0; 
+}
+section.intro div.preamble{ 
+background:#f7f4e8; margin-left:-190px; padding:20px 20px 20px 180px; 
+}
+div.main{ 
+	padding:100px; 
+}
+aside.sidebar{ 
+	background:#f9ed8b; padding:70px; position:absolute; 
+	right:0; top:100px; width:220px;  
+}
+aside.sidebar ul{ 
+	padding:8px 0 30px 0; 
+}
+aside.sidebar ul li{ 
+	color:#666666;padding:0 0 15px 0;padding: 0;list-style:none;
+}
+
+div.explanation{ 
+	float:left; width:50%; color:#fff; padding:5%; 
+}
+div.participation{ 
+	background:rgba(214, 70, 70,0.9); color:#fff; padding:10px; float:right; width:350px; 
+}
+div.benefits{ 
+	background:rgba(255,255,255,0.9);padding:40px;margin-top:150px; 
+	width:300px;float:left; 
+}
+div.requirements{ 
+	background:rgba(255,255,255,0.9); padding:40px;float:left;width:537px; 
+}
+div.extra1{ 
+	background:rgba(51,55,69,0.9); bottom:0; right:0;position:fixed; top:0; width:400px; z-index:1;
+}
+footer a{ 
+margin-right:10px; 
+}
+footer{ 
+	background:rgba(246,247,146,0.9); clear:both;padding:16px 40px; width:450px; 
+}
+
+
+	 
